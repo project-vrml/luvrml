@@ -1,4 +1,4 @@
-local mylibrary = require("mylibrary")
+local mylibrary = require("group.rxcloud.luvrml.envoy.internal.foobar")
 
 function envoy_on_request(request_handle)
     request_handle:headers():add("foo", mylibrary.foobar())

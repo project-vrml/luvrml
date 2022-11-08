@@ -1,5 +1,6 @@
 --启用cjson处理json
 gcjson = require("cjson");
+
 --获取请求参数值
 local requestmap = ngx.req.get_uri_args();
 
